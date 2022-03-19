@@ -13,8 +13,8 @@ import UserDetailScreen from "./screens/UserDetailScreen";
 function MyStack() {
   return (
     <Stack.Navigator>
-      <Stack.Screen name="userlist" component={UserList} />
       <Stack.Screen name="createuserscreen" component={CreateuserScreen} />
+      <Stack.Screen name="userlist" component={UserList} />
       <Stack.Screen name="userdetailscreen" component={UserDetailScreen} />
     </Stack.Navigator>
   );
